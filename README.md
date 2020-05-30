@@ -4,7 +4,7 @@ A personal website built using Gatsby.
 
 ## Demo
 
-Here is a working live demo : [https://rochman.id](https://rochman.id)
+Here is a working live demo: [https://rochman.id](https://rochman.id)
 
 ## Installation and usage
 
@@ -17,4 +17,4 @@ http://localhost:8000
 ```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/aldhinya/rochman.id/blob/master/LICENSE.md)
