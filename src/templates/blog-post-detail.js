@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { DiscussionEmbed } from "disqus-react"
-// import { CommentCount } from 'disqus-react'
+import { CommentCount } from 'disqus-react'
 import Tags from "../components/tags"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -18,7 +18,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
     let disqusConfig = {
         shortname: 'rochman-id',
-        config: { identifier: title },
+        config: { identifier: title,urlPost },
     };
     return (
         <Layout>
@@ -30,7 +30,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             <div className="panel">
                 <div className="kotak-kecil" style={{ marginRight:'8px', marginBottom:'5px'}}>Fadhilatur Rochman</div>
                 <div className="kotak-kecil" style={{ marginRight:'8px', marginBottom:'5px'}}>{post.frontmatter.date}</div>
-                {/*<div className="kotak-kecil" style={{ marginBottom:'5px'}}><CommentCount {...disqusConfig}/></div>*/}
+                <div className="kotak-kecil" style={{ marginBottom:'5px'}}><CommentCount {...disqusConfig}/></div>
                 <br/>
             <div className="post">
                 <div style={{ borderBottom: '1px dotted #999', paddingBottom:'10px'}}>
@@ -40,7 +40,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 <section dangerouslySetInnerHTML={{ __html: post.html }} />
             </div>
                 <div className="share-button">
-                    Share this article with Your friends:<br/>
+                    <span className="share-title">Share this article with Your friends:</span><br/>
                     <a onClick={() => {navigator.clipboard.writeText(post.frontmatter.title+ ". " +urlPost)}} style={{cursor:'pointer', background:'#57606f'}}>Copy Link</a>
                     <a href={'https://www.facebook.com/sharer/sharer.php?u=' + urlPost} target="_blank" style={{background:'#3B5998'}} title="Share to Facebook" rel="noopener noreferrer">Facebook</a>
                     <a href={'https://api.whatsapp.com/send?text=' + post.frontmatter.title+ ". " + urlPost } target="_blank" style={{background:'#25D366'}} title="Share to WhatsApp" rel="noopener noreferrer">WhatsApp</a>

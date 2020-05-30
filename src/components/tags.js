@@ -10,10 +10,10 @@ const Tags = props => {
     }
 
     return (
-            <div className="tag-artikel">
+            <div className={'tag-artikel'}>
                 {props.listOfTags.map((tag, index) => (
                     <Link to={`/blog/tags/${kebabCase(tag)}/`} key={index} title={tag}>
-                        <div className="kotak-kecil" style={{ marginRight:'6px', marginBottom:'5px'}}>#{tag}</div>
+                        <div className={'kotak-kecil'} style={{ marginRight:'6px', marginBottom:'5px'}}>#{tag}</div>
                     </Link>
                 ))}
             </div>

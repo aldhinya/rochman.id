@@ -53,28 +53,28 @@ const Tags = ({ pageContext, data }) => {
                 title={tagTitleSeo}
                 description={tagDescriptionSeo}
             />
-            <div className="panel">
-                <div className="kotak-kecil">Fadhilatur Rochman</div>
+            <div className={'panel'}>
+                <div className={'kotak-kecil'}>Fadhilatur Rochman</div>
                 <br/>
-                <div className="nama"><span>Blog - #<span style={{textTransform:'capitalize'}}>{tag}</span></span></div>
-                <div className="deskripsi blog">
-                    <div className="kiri">
+                <div className={'nama'}><span>Blog - #<span style={{textTransform:'capitalize'}}>{tag}</span></span></div>
+                <div className={'deskripsi blog'}>
+                    <div className={'kiri'}>
                         <p>Semua ungkapan isi hati dan pikiran akan saya tulis di sini. Semoga bermanfaat <span role={'img'} aria-label={'emoji'}>😁</span></p>
                         <div style={{marginTop: '-15px', marginBottom:'10px'}}>
                             <Link to={`/blog/`}>
-                                <div className={`list-tags`}>#All <span className="count">{data.tag.totalCount}</span></div>
+                                <div className={`list-tags`}>#All <span className={'count'}>{data.tag.totalCount}</span></div>
                             </Link>
                             {allTags.map(tag => (
                                 <Link to={`/blog/tags/${kebabCase(tag.fieldValue)}/`}>
-                                    <div className={`list-tags ${tagAktif===tag.fieldValue ? 'active' : 'a'}`}>#{tag.fieldValue} <span className="count">{tag.totalCount}</span></div>
+                                    <div className={`list-tags ${tagAktif===tag.fieldValue ? 'active' : 'a'}`}>#{tag.fieldValue} <span className={'count'}>{tag.totalCount}</span></div>
                                 </Link>
                             ))}
                         </div>
                     </div>
-                    <div className="kanan">
+                    <div className={'kanan'}>
                         <input
-                            type="text"
-                            aria-label="Search"
+                            type={'text'}
+                            aria-label={'Search'}
                             placeholder={`Search the article with tag #${tag} here ...`}
                             onChange={handleInputChange}
                         />
@@ -83,13 +83,11 @@ const Tags = ({ pageContext, data }) => {
                             const listTag = node.frontmatter.tags
                             return (
                                 <Link style={{ boxShadow: `none` }} to={`/blog/${node.fields.slug}/`}>
-                                    <article className="kotak-artikel">
-                                        <span style={{ fontSize:'13px'}} className={'tanggal'}>{node.frontmatter.date}</span>
+                                    <article className={'kotak-artikel'}>
+                                        <span className={'tanggal'}>{node.frontmatter.date}</span>
                                         <br/>
-                                        <h3 style={{ display: 'inline'}}>
-                                            {title}
-                                        </h3>
-                                        <p className="artikel-detail">
+                                        <h3>{title}</h3>
+                                        <p className={'artikel-detail'}>
                                             <Tagss listOfTags={listTag} />
                                             {node.frontmatter.description}
                                         </p>

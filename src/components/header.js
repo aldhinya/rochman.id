@@ -26,11 +26,11 @@ import sunIcon from "../images/sun-icon.svg"
 const Header = ({ siteTitle }) => {
     return (
         <>
-            <div className="logo-container">
+            <div className={'logo-container'}>
                 <div className={'title-header'}><Link to="/" title={'ROCHMAN.ID'}>ROCHMAN.ID</Link></div>
                 <span style={{ fontStyle: 'italic', display:'inline-block'}}>Novice Programmer</span>
             </div>
-            <div className="menuku" id="myTopnav">
+            <div className={'menuku'} id={'myTopnav'}>
                 <Link to="/" activeClassName={'active'} title={'Home'}>Home</Link>
                 <Link to="/blog/" activeClassName={'active'} partiallyActive={true} title={'Blog'}>Blog</Link>
                 <Link to="/about/" activeClassName={'active'} title={'About'}>About</Link>
@@ -45,23 +45,22 @@ const Header = ({ siteTitle }) => {
                 {/*            </label>*/}
                 {/*    )}*/}
                     {({ theme, toggleTheme }) => (
-                        <label className="theme-changer">
+                        <label className={'theme-changer'}>
                             {theme === 'light'
                             &&
                             <>
                                 <a onClick={e => toggleTheme(e.target.checked ? 'dark' : 'dark')}><img src={moonIcon} alt="moon icon" /></a>
-                                <span className="tooltiptext dark">Switch to Dark Mode</span>
+                                <span className={'tooltiptext dark'}>Switch to Dark Mode</span>
                             </>
                             }
                             {theme === 'dark'
                             &&
                             <>
                                 <a onClick={e => toggleTheme(e.target.checked ? 'light' : 'light')}><img src={sunIcon} alt="sun icon" /></a>
-                                <span className="tooltiptext light">Switch to Light Mode</span>
+                                <span className={'tooltiptext light'}>Switch to Light Mode</span>
                             </>
                             }
                             {/*{theme === 'dark' ? `🌕` : `🌑`}*/}
-
                         </label>
                     )}
                 </ThemeToggler>

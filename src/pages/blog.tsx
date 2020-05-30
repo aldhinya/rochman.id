@@ -76,32 +76,32 @@ const BlogIndex = props => {
     return (
         <Layout>
             <SEO
-                title="Blog"
-                description="Kumpulan artikel di blog ROCHMAN.ID."
+                title={'Blog'}
+                description={'Kumpulan artikel di blog ROCHMAN.ID.'}
             />
-            <div className="panel">
-                <div className="kotak-kecil">Fadhilatur Rochman</div>
+            <div className={'panel'}>
+                <div className={'kotak-kecil'}>Fadhilatur Rochman</div>
                 <br/>
-                <div className="nama"><span>Blog</span></div>
-                <div className="deskripsi blog">
-                    <div className="kiri">
+                <div className={'nama'}><span>Blog</span></div>
+                <div className={'deskripsi blog'}>
+                    <div className={'kiri'}>
                         <p>Semua ungkapan isi hati dan pikiran akan saya tulis di sini. Semoga bermanfaat <span role={'img'} aria-label={'emoji'}>😁</span></p>
                         <div style={{marginTop:'-15px', marginBottom:'10px'}} title={'All'}>
                             <Link to={`/blog/`}>
-                                <div className={`list-tags active`}>#All <span className="count">{data.tag.totalCount}</span></div>
+                                <div className={`list-tags active`}>#All <span className={'count'}>{data.tag.totalCount}</span></div>
                             </Link>
                             {allTags.map(tag => (
                                 <Link to={`/blog/tags/${kebabCase(tag.fieldValue)}/`} title={tag.fieldValue}>
-                                    <div className="list-tags">#{tag.fieldValue} <span className="count">{tag.totalCount}</span></div>
+                                    <div className={'list-tags'}>#{tag.fieldValue} <span className={'count'}>{tag.totalCount}</span></div>
                                 </Link>
                             ))}
                         </div>
                     </div>
-                    <div className="kanan">
+                    <div className={'kanan'}>
                         <input
-                            type="text"
-                            aria-label="Search"
-                            placeholder="Search article here ..."
+                            type={'text'}
+                            aria-label={'Search'}
+                            placeholder={'Search article here ...'}
                             onChange={handleInputChange}
                         />
                         {posts.map(({ node }) => {
@@ -109,13 +109,11 @@ const BlogIndex = props => {
                             const tag = node.frontmatter.tags
                             return (
                                 <Link style={{ boxShadow: `none` }} to={`/blog/${node.fields.slug}/`} title={title}>
-                                    <div key={node.fields.slug} className="kotak-artikel">
-                                        <span style={{ fontSize:'13px'}} className={'tanggal'}>{node.frontmatter.date}</span>
+                                    <div key={node.fields.slug} className={'kotak-artikel'}>
+                                        <span className={'tanggal'}>{node.frontmatter.date}</span>
                                         <br/>
-                                        <h3 style={{ display: 'inline'}}>
-                                            {title}
-                                        </h3>
-                                        <p className="artikel-detail">
+                                        <h3>{title}</h3>
+                                        <p className={'artikel-detail'}>
                                             <Tags listOfTags={tag} />
                                             {node.frontmatter.description}
                                         </p>

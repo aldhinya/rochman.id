@@ -13,17 +13,18 @@ const TagsPage = ({ data }) => {
     return (
         <Layout>
             <SEO
-                title="Tags"
-                description="Kumpulan tags di blog ROCHMAN.ID."
+                title={'Tags'}
+                description={'Kumpulan tags di blog ROCHMAN.ID.'}
             />
-            <div className="panel">
-                <div className="kotak-kecil">Fadhilatur Rochman</div>
+            <div className={'panel'}>
+                <div className={'kotak-kecil'}>Fadhilatur Rochman</div>
                 <br/>
-                <div className="nama"><span>All Tags</span></div>
-                <div className="deskripsi blog">
+                <div className={'nama'}><span>All Tags</span></div>
+                <br/>
+                <div className={'deskripsi blog'}>
                         {allTags.map(tag => (
                                 <Link to={`/blog/tags/${kebabCase(tag.fieldValue)}/`} title={tag.fieldValue}>
-                                    <div className="list-tags">#{tag.fieldValue} <span className="count">{tag.totalCount}</span></div>
+                                    <div className={'list-tags'}>#{tag.fieldValue} <span className={'count'}>{tag.totalCount}</span></div>
                                 </Link>
                         ))}
                         <br/><br/>

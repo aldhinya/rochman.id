@@ -24,13 +24,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="container fade-in"
-      >
+      <div className={'container fade-in'}>
           <Header siteTitle={data.site.siteMetadata.title} />
         {children}
       </div>
-        <div className="footer fade-in">
-            Built with <span style={{color:'red'}}>❤</span> using <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer" title={'GatsbyJS'}>GatsbyJS</a>.<br/>Copyright © 2020 ROCHMAN.ID. All Rights Reserved
+        <div className={'footer fade-in'}>
+            Built with <span style={{color:'red'}}>❤</span> using <a href={'https://www.gatsbyjs.org/'} target={'_blank'} rel={'noreferrer'} title={'GatsbyJS'}>GatsbyJS</a>.<br/>Copyright © 2020 ROCHMAN.ID. All Rights Reserved
         </div>
     </>
   )

@@ -37,9 +37,10 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
     background-color: rgb(40, 44, 52);
-    margin-left: -18px;
     padding-left: 16px;
-    margin-right: -18px;
+    /*margin-left: -18px;*/
+    /*margin-right: -18px;*/
+    border-radius: 4px;
 }
 
 /* Inline code */
