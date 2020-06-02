@@ -620,20 +620,8 @@ input[type=text]:focus {
 		display: grid;
 		grid-template-columns: auto auto;
 	}
-}
-@media only screen and (max-width: 375px) {
-	.title-header, h1{
-		font-size: 7.1vw;
-	}
-	.panel .nama{
-		font-size: 6vw;
-	}
-	.deskripsi .grid-container {
-		display: grid;
-		grid-template-columns: auto;
-	}
 	.foto img {
-		width: 70%;
+		width: 65%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -643,6 +631,18 @@ input[type=text]:focus {
 	.foto {
 		padding: 10px;
 		width: 100%;
+	}
+}
+@media only screen and (max-width: 381px) {
+	.title-header, h1{
+		font-size: 7.1vw;
+	}
+	.panel .nama{
+		font-size: 6vw;
+	}
+	.deskripsi .grid-container {
+		display: grid;
+		grid-template-columns: auto;
 	}
 }
 @media only screen and (max-width: 353px) {
