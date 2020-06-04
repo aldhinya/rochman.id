@@ -29,10 +29,13 @@ const AboutPage = () => (
                     GitHub - <a href={'https://github.com/aldhinya/'} target={'_blank'} rel={'noreferrer'} title={'GitHub Aldhinya Aldhi'}>github.com/aldhinya</a>
                     <br/>GitLab - <a href={'https://gitlab.com/aldhinya/'} target={'_blank'} rel={'noreferrer'} title={'GitLab Aldhinya Aldhi'}>gitlab.com/aldhinya</a>
                 </p>
-                <b>Mini Project</b>
+                <b>Project yang Pernah Saya Kerjakan</b>
                 <p>
                     Blog Lab Bahasa Pemrograman (Laravel, Bootstrap) - <a href={'https://inforlabs.net/'} target={'_blank'} rel={'noreferrer'} title={'Blog Lab Bahasa Pemrograman'}>inforlabs.net</a><br/>
                     Blog Sederhana (Laravel, Bootstrap) - <a href={'https://beritaku.rochman.id/'} target={'_blank'} rel={'noreferrer'} title={'Blog Sederhana'}>beritaku.rochman.id</a><br/>
+                    Website SMKN 1 Robatal (Wordpress) - <a href={'https://www.smkn1robatal.sch.id/'} target={'_blank'} rel={'noreferrer'} title={'Website SMKN 1 Robatal'}>smkn1robatal.sch.id</a><br/>
+                    Website Pendataan Calon Siswa Baru SMKN 1 Robatal (Laravel, Bootstrap) - <a href={'https://ppdb.smkn1robatal.sch.id/'} target={'_blank'} rel={'noreferrer'} title={'Website SMKN 1 Robatal'}>ppdb.smkn1robatal.sch.id</a><br/>
+                    dll<br/>
                 </p>
                 <h4>Pengetahuan Dasar</h4>
 
