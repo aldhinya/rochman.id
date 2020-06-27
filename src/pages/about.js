@@ -22,7 +22,7 @@ const AboutPage = () => (
                 <b>Organisasi</b>
                 <p>
                     Laboratorium Teknik Informatika ITATS - <a href={'https://labinformatika.itats.ac.id/'} target={'_blank'} rel={'noreferrer'} title={'Laboratorium Teknik Informatika ITATS'}>labinformatika.itats.ac.id</a>
-                    <br/> Laboratorium Bahasa Pemrograman ITATS - <a href={'https://inforlabs.net/'} target={'_blank'} rel={'noreferrer'} title={'Laboratorium Bahasa Pemrograman ITATS'}>inforlabs.net</a>
+                    <br/> Laboratorium Bahasa Pemrograman ITATS - <a href={'https://lbp.web.id'} target={'_blank'} rel={'noreferrer'} title={'Laboratorium Bahasa Pemrograman ITATS'}>lbp.web.id</a>
                 </p>
                 <b>Development</b>
                 <p>
@@ -31,7 +31,7 @@ const AboutPage = () => (
                 </p>
                 <b>Project yang Pernah Saya Kerjakan</b>
                 <p>
-                    Blog Lab Bahasa Pemrograman (Laravel, Bootstrap) - <a href={'https://inforlabs.net/'} target={'_blank'} rel={'noreferrer'} title={'Blog Lab Bahasa Pemrograman'}>inforlabs.net</a><br/>
+                    Blog Lab Bahasa Pemrograman (Laravel, Bootstrap) - <a href={'https://lbp.web.id/'} target={'_blank'} rel={'noreferrer'} title={'Blog Lab Bahasa Pemrograman'}>lbp.web.id</a><br/>
                     Blog Sederhana (Laravel, Bootstrap) - <a href={'https://beritaku.rochman.id/'} target={'_blank'} rel={'noreferrer'} title={'Blog Sederhana'}>beritaku.rochman.id</a><br/>
                     Website SMKN 1 Robatal (Wordpress) - <a href={'https://www.smkn1robatal.sch.id/'} target={'_blank'} rel={'noreferrer'} title={'Website SMKN 1 Robatal'}>smkn1robatal.sch.id</a><br/>
                     Website Pendataan Calon Siswa Baru SMKN 1 Robatal (Laravel, Bootstrap) - <a href={'https://ppdb.smkn1robatal.sch.id/'} target={'_blank'} rel={'noreferrer'} title={'Website SMKN 1 Robatal'}>ppdb.smkn1robatal.sch.id</a><br/>

@@ -21,6 +21,7 @@ const ContactPage = () => (
                     <br/>Instagram - <a href={'https://www.instagram.com/aldhinya/'} target={'_blank'} rel={'noreferrer'} title={"Instagram"}>instagram.com/aldhinya</a>
                     <br/>Instagram - <a href={'https://www.instagram.com/fadhil.rochman/'} target={'_blank'} rel={'noreferrer'} title={"Instagram"}>instagram.com/fadhil.rochman</a>
                     <br/>LinkedIn - <a href={'https://www.linkedin.com/in/fadhil-rochman'} target={'_blank'} rel={'noreferrer'} title={"LinkedIn"}>linkedin.com/in/fadhil-rochman</a>
+                    <br/>Udemy - <a href={'https://www.udemy.com/user/fadhilatur-rochman/'} target={'_blank'} rel={'noreferrer'} title={"LinkedIn"}>udemy.com/user/fadhilatur-rochman</a>
                     <br/>Steam - <a href={'http://steamcommunity.com/id/aldhi'} target={'_blank'} rel={'noreferrer'} title={"Steam"}>steamcommunity.com/id/aldhi</a>
                 </p>
             </div>
