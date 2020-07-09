@@ -98,5 +98,15 @@ module.exports = {
         icon: `src/images/fav.png`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-zopfli',
+      options: {
+        extensions: ['css', 'html', 'js', 'svg', 'jpg', 'png'],
+        verbose: true,
+        compression: {
+          numiterations: 15
+        },
+      },
+    },
   ],
 }

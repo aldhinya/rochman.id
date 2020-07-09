@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import fotoku from "../images/fotoku.jpg";
+import fotoku from "../images/fotoku.jpg";
 import fotoHome from "../images/home.jpg";
 import {Link} from "gatsby";
 
@@ -14,8 +14,8 @@ const IndexPage = () => (
         />
         <div className={'panel'}>
             <div className={'foto'}>
-                {/*<img src={fotoku} alt="Foto Fadhilatur Rochman" title={'Foto Fadhilatur Rochman'}/>*/}
-                <img src={'https://4.bp.blogspot.com/-SkL4zL4a5qM/Xs--iOb6jBI/AAAAAAAABVU/ncwaBarFIKcK3Y1dYXrvlMyJsW2E8EHmQCK4BGAYYCw/s260/fotoku.jpg'} alt={'Foto Fadhilatur Rochman'} title={'Foto Fadhilatur Rochman'}/>
+                <img src={fotoku} alt="Foto Fadhilatur Rochman" title={'Foto Fadhilatur Rochman'}/>
+                {/*<img src={'https://4.bp.blogspot.com/-SkL4zL4a5qM/Xs--iOb6jBI/AAAAAAAABVU/ncwaBarFIKcK3Y1dYXrvlMyJsW2E8EHmQCK4BGAYYCw/s260/fotoku.jpg'} alt={'Foto Fadhilatur Rochman'} title={'Foto Fadhilatur Rochman'}/>*/}
             </div>
             <div className={'kotak-kecil'}>
                 aldhi
