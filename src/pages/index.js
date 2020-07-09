@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import fotoku from "../images/fotoku.jpg";
+import fotoku from "../images/foto-home.jpg";
 import fotoHome from "../images/home.jpg";
 import {Link} from "gatsby";
 
