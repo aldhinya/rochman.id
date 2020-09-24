@@ -31,11 +31,14 @@ const AboutPage = () => (
                 </p>
                 <b>Project yang Pernah Saya Kerjakan</b>
                 <p>
-                    Blog Lab Bahasa Pemrograman (Laravel, Bootstrap) - <a href={'https://lbp.web.id/'} target={'_blank'} rel={'noreferrer'} title={'Blog Lab Bahasa Pemrograman'}>lbp.web.id</a><br/>
                     Blog Sederhana (Laravel, Bootstrap) - <a href={'https://beritaku.rochman.id/'} target={'_blank'} rel={'noreferrer'} title={'Blog Sederhana'}>beritaku.rochman.id</a><br/>
+                    Blog Lab Bahasa Pemrograman (Laravel, Bootstrap) - <a href={'https://lbp.web.id/'} target={'_blank'} rel={'noreferrer'} title={'Blog Lab Bahasa Pemrograman'}>lbp.web.id</a><br/>
                     Website SMKN 1 Robatal (Wordpress) - <a href={'https://www.smkn1robatal.sch.id/'} target={'_blank'} rel={'noreferrer'} title={'Website SMKN 1 Robatal'}>smkn1robatal.sch.id</a><br/>
                     Website Pendataan Calon Siswa Baru SMKN 1 Robatal (Laravel, Bootstrap) - <a href={'https://ppdb.smkn1robatal.sch.id/'} target={'_blank'} rel={'noreferrer'} title={'Website SMKN 1 Robatal'}>ppdb.smkn1robatal.sch.id</a><br/>
-                    dll<br/>
+                    Website Jasa Bor (Wordpress) - <a href={'https://jasaborsumursumberbumi.com'} target={'_blank'} rel={'noreferrer'} title={'Website Profile Jasa Bor'}>jasaborsumursumberbumi.com</a><br/>
+                    Website Produk Bliwuh Spray (Wordpress) - <a href={'https://bliwuhspray.com'} target={'_blank'} rel={'noreferrer'} title={'Website Produk Bliwuh Spray'}>bliwuhspray.com</a><br/>
+                    Website Sanggar Prawitaria (Bootstrap) - <a href={'https://prawitaria.com/'} target={'_blank'} rel={'noreferrer'} title={'Website Sanggar Rias Prawitaria'}>prawitaria.com</a><br/>
+                    DLL<br/>
                 </p>
                 <h4>Pengetahuan Dasar</h4>
 
@@ -77,7 +80,6 @@ const AboutPage = () => (
                     <div className={'grid-item'}>
                         <b>Infrastruktur</b>
                         <p>HawkHost<br/>
-                            Vultr<br/>
                             Vercel<br/>
                             Netlify</p>
                     </div>
