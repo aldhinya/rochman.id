@@ -1,10 +1,9 @@
-import React from "react"
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-import fotoku from "../images/foto-home.jpg";
-import fotoHome from "../images/home.jpg";
 import {Link} from "gatsby";
+import React from "react"
+import SEO from "../components/seo"
+import fotoHome from "../images/home.jpg";
+import fotoku from "../images/foto-home.jpg";
 
 const IndexPage = () => (
     <Layout>
@@ -21,9 +20,9 @@ const IndexPage = () => (
                 aldhi
             </div>
             <br/>
-            <div className={'nama'}><span>Hi, I'm Fadhilatur Rochman <span role={'img'} aria-label={'emoji'}>👋</span></span></div>
+            <div className={'nama'}><span>Hi, saya Fadhilatur Rochman <span role={'img'} aria-label={'emoji'}>👋</span></span></div>
             <div className={'deskripsi'}>
-                <p>Hubungi saya melalui email di <a href={'mailto:hi@rochman.id'} title={'Contact via Email'}>hi@rochman.id</a> atau kunjungi halaman <Link to="/contact/" title={'Go to Contact Page'}>Contact</Link> untuk informasi lebih lanjut.</p>
+                <p>Untuk kenal lebih jauh silahkan buka halaman <Link to="/about/" title={'Go to About Page'}>About</Link> atau buka halaman <Link to="/contact/" title={'Go to Contact Page'}>Contact</Link> untuk menghubungi saya.</p>
                 <p style={{ fontStyle:'italic'}}>"Don’t worry if it doesn’t work right. If everything did, you’d be out of a job" - Mosher’s Law of Software Engineering</p>
             </div>
         </div>

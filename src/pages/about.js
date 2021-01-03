@@ -13,182 +13,71 @@ const AboutPage = () => (
       </div>
       <div className={"deskripsi"}>
         <p>
-          Punya nama lengkap Fadhilatur Rochman dan dipanggil Aldhi. Anak
+          Punya nama lengkap Fadhilatur Rochman dan biasa dipanggil Aldhi. Anak
           pertama dari dua bersaudara. Tinggal di Indonesia, Lahir di Surabaya
           dan dibesarkan di Gresik. Sedang berkuliah di salah satu perguruan
-          tinggi swasta di Surabaya yaitu Institut Teknologi Adhi Tama Surabaya.
+          tinggi swasta di Surabaya.
         </p>
         <p>
           Suka rebahan dan scroll sosial media seperti facebook, twitter, dan
           instagram sampai tamat.
         </p>
-        <b>Blog</b>
+        <h4>Pendidikan</h4>
         <p>
-          Aldhinya Web -{" "}
-          <a
-            href={"https://www.aldhinya.com/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Aldhinya Web"}
-          >
-            aldhinya.com
-          </a>
-          <br />
-          Rochman Blog -{" "}
-          <a
-            href={"https://blog.rochman.id/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"blog.rochman.id"}
-          >
-            blog.rochman.id
-          </a>
+          <ul>
+            <li><b>SDN Cerme Lor</b> (2005 - 2011)</li>
+            <li><b>SMPN 5 Gresik</b> (2011 - 2014)</li>
+            <li><b>SMKN 1 Cerme</b> (2014 - 2017)<br/>Teknik Komputer dan Jaringan</li>
+            <li><b>Institut Teknologi Adhi Tama Surabaya</b> (2017 - sekarang)<br/>Teknik Informatika</li>
+          </ul>
         </p>
-        <b>Organisasi</b>
+        <h4>Organisasi</h4>
         <p>
-          Laboratorium Teknik Informatika ITATS -{" "}
-          <a
-            href={"https://labinformatika.itats.ac.id/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Laboratorium Teknik Informatika ITATS"}
-          >
-            labinformatika.itats.ac.id
-          </a>
-          <br /> Laboratorium Bahasa Pemrograman ITATS -{" "}
-          <a
-            href={"https://lbp.web.id"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Laboratorium Bahasa Pemrograman ITATS"}
-          >
-            lbp.web.id
-          </a>
+        <ul>
+            <li><b>Asisten Laboratorium Bahasa Pemrograman</b> (2018 - 2019)</li>
+            <li><b>Koordinator Laboratorium Bahasa Pemrograman</b> (2019 - 2020)</li>
+          </ul>
         </p>
-        <b>Development</b>
+        <h4>Blog</h4>
         <p>
-          GitHub -{" "}
-          <a
-            href={"https://github.com/aldhinya/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"GitHub Aldhinya Aldhi"}
-          >
-            github.com/aldhinya
-          </a>
-          <br />
-          GitLab -{" "}
-          <a
-            href={"https://gitlab.com/aldhinya/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"GitLab Aldhinya Aldhi"}
-          >
-            gitlab.com/aldhinya
-          </a>
+          <ul>
+            <li>
+              <b>Aldhinya Web</b> -{" "}
+              <a
+                href={"https://www.aldhinya.com/"}
+                target={"_blank"}
+                rel={"noreferrer"}
+                title={"Aldhinya Web"}
+              >
+                aldhinya.com
+              </a>
+            </li>
+            <li>
+            <b>Rochman Blog</b> -{" "}
+              <a
+                href={"https://blog.rochman.id/"}
+                target={"_blank"}
+                rel={"noreferrer"}
+                title={"blog.rochman.id"}
+              >
+                blog.rochman.id
+              </a>
+            </li>
+          </ul>
         </p>
-        <b>Project yang Pernah Saya Kerjakan</b>
+        <h4>Skills</h4>
         <p>
-          Blog Sederhana (Laravel, Bootstrap) -{" "}
-          <a
-            href={"https://beritaku.rochman.id/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Blog Sederhana"}
-          >
-            beritaku.rochman.id
-          </a>
-          <br />
-          Blog Lab Bahasa Pemrograman (Laravel, Bootstrap) -{" "}
-          <a
-            href={"https://lbp.web.id/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Blog Lab Bahasa Pemrograman"}
-          >
-            lbp.web.id
-          </a>
-          <br />
-          Website SMKN 1 Robatal (Wordpress) -{" "}
-          <a
-            href={"https://www.smkn1robatal.sch.id/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Website SMKN 1 Robatal"}
-          >
-            smkn1robatal.sch.id
-          </a>
-          <br />
-          Website SMKN 1 Cerme Gresik (Wordpress) -{" "}
-          <a
-            href={"http://smkn1cermegresik.sch.id/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Website SMKN 1 Cerme Gresik"}
-          >
-            smkn1robatal.sch.id
-          </a>
-          <br />
-          Website Pendataan Calon Siswa Baru SMKN 1 Robatal (Laravel, Bootstrap)
-          -{" "}
-          <a
-            href={"https://ppdb.smkn1robatal.sch.id/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Website SMKN 1 Robatal"}
-          >
-            ppdb.smkn1robatal.sch.id
-          </a>
-          <br />
-          Website Jasa Bor (Wordpress) -{" "}
-          <a
-            href={"https://jasaborsumursumberbumi.com"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Website Profile Jasa Bor"}
-          >
-            jasaborsumursumberbumi.com
-          </a>
-          <br />
-          Website Produk Bliwuh Spray (Wordpress) -{" "}
-          <a
-            href={"https://bliwuhspray.com"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Website Produk Bliwuh Spray"}
-          >
-            bliwuhspray.com
-          </a>
-          <br />
-          Website Sanggar Prawitaria (Bootstrap) -{" "}
-          <a
-            href={"https://prawitaria.com/"}
-            target={"_blank"}
-            rel={"noreferrer"}
-            title={"Website Sanggar Rias Prawitaria"}
-          >
-            prawitaria.com
-          </a>
-          <br />
-          DLL
-          <br />
+          Programming Languages & Tools.
         </p>
-        <h4>Pengetahuan Dasar</h4>
-
-        <p>
-          Berikut adalah hal-hal yang pernah saya kerjakan dan atau saat ini
-          saya gunakan sehari-hari.
-        </p>
-
         <div className={"grid-container"}>
           <div className={"grid-item"}>
-            <b>Bahasa</b>
+            <b>Languages</b>
             <p>
               CSS & HTML
               <br />
-              Java
-              <br />
               PHP
+              <br />
+              Java
               <br />
               JavaScript
               <br />
@@ -216,13 +105,15 @@ const AboutPage = () => (
             <p>WordPress</p>
           </div>
           <div className={"grid-item"}>
-            <b>Alat Tempur</b>
+            <b>Tools</b>
             <p>
               PhpStorm
               <br />
               Visual Studio Code
               <br />
               NetBeans
+              <br />
+              Adobe XD
               <br />
               GitKraken
               <br />
@@ -234,7 +125,7 @@ const AboutPage = () => (
             </p>
           </div>
           <div className={"grid-item"}>
-            <b>Infrastruktur</b>
+            <b>Infrastructure</b>
             <p>
               HawkHost
               <br />

@@ -269,6 +269,7 @@ tr:nth-child(even) {
 	border-radius: 50%;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 	filter:brightness(135%);
+	border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 .foto img:hover {
 	animation: goyang 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -549,7 +550,7 @@ input[type=text]:focus {
 		font-size: 1.8em;
 	}
 }
-@media only screen and (max-width: 698px) {
+@media only screen and (max-width: 717px) {
 	.title-header, h1 {
 		font-size: 2em;
 	}
@@ -567,12 +568,15 @@ input[type=text]:focus {
 		margin-top: 0px;
 	}
 }
-@media only screen and (max-width: 602px) {
+@media only screen and (max-width: 615px) {
 	.panel .nama{
 		font-size: 1.2em;
 	}
+	.portfolio-row .column {
+		width: 100% !important;
+	}
 }
-@media only screen and (max-width: 552px) {
+@media only screen and (max-width: 565px) {
 	.panel .nama{
 		font-size: 1em;
 	}
@@ -615,6 +619,7 @@ input[type=text]:focus {
 		display: none;
 	}
 }
+
 @media only screen and (max-width: 440px) {
 	.deskripsi .grid-container {
 		display: grid;
@@ -633,12 +638,12 @@ input[type=text]:focus {
 		width: 100%;
 	}
 }
-@media only screen and (max-width: 381px) {
+@media only screen and (max-width: 395px) {
 	.title-header, h1{
-		font-size: 7.1vw;
+		font-size: 7vw;
 	}
 	.panel .nama{
-		font-size: 6vw;
+		font-size: 5.5vw;
 	}
 	.deskripsi .grid-container {
 		display: grid;
@@ -817,4 +822,43 @@ input[type=text]:focus {
 	-o-transition: All 0.2s ease;
 }
 
-/*TOMBOL SWITCH DARK MODE END*/
+
+.portfolio-row {
+	margin: 0px -16px;
+	padding: 0px 8px 0px 8px;
+}
+.portfolio-row h4 {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+.portfolio-row > .column {
+	padding: 8px;
+	float: left;
+}
+
+.portfolio-row .column {
+	float: left;
+	width: 50%;
+}
+
+.portfolio-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.portfolio-row .content {
+	background-color: var(--bg-kotak-artikel);
+	border: 2px solid var(--border-kotak-artikel);
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.portfolio-row .content p{
+	line-height: 1em;
+}
+
+.portfolio-row img{
+	width: 100%;
+	border-radius: 3px;
+}
