@@ -67,7 +67,7 @@ const AboutPage = () => (
         </p>
         <h4>Skills</h4>
         <p>
-          Programming Languages & Tools.
+          Programming Languages & Tools:
         </p>
         <div className={"grid-container"}>
           <div className={"grid-item"}>
