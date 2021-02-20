@@ -14,16 +14,9 @@ const Header = ({ siteTitle }) => {
             <div className={'logo-container'}>
                 <div className={'title-header'}><Link to="/" title={'ROCHMAN.ID'}>ROCHMAN.ID</Link></div>
                 {/* <span style={{ fontStyle: 'italic', display:'inline-block'}}>Novice Programmer</span> */}
-            </div>
-            <div className={'menuku'} id={'myTopnav'}>
-                <Link to="/" activeClassName={'active'} title={'Home'}>Home</Link>
-                <Link to="/about/" activeClassName={'active'} title={'About'}>About</Link>
-                <Link to="/portfolio/" activeClassName={'active'} title={'Portfolio'}>Portfolio</Link>
-                <Link to="/contact/" activeClassName={'active'} title={'Contact'}>Contact</Link>
-                <Link to="/blog/" activeClassName={'active'} partiallyActive={true} title={'Blog'}>Blog</Link>
                 <ThemeToggler>
                     {({ theme, toggleTheme }) => (
-                        <label className={'theme-changer'}>
+                        <label className={'theme-changer'} style={'margin-top: 5px;'}>
                             {theme === 'light'
                             &&
                             <>
@@ -42,6 +35,14 @@ const Header = ({ siteTitle }) => {
                         </label>
                     )}
                 </ThemeToggler>
+            </div>
+            <div className={'menuku'} id={'myTopnav'}>
+                <Link to="/" activeClassName={'active'} title={'Home'}>Home</Link>
+                <Link to="/about/" activeClassName={'active'} title={'About'}>About</Link>
+                <Link to="/portfolio/" activeClassName={'active'} title={'Portfolio'}>Portfolio</Link>
+                <Link to="/contact/" activeClassName={'active'} title={'Contact'}>Contact</Link>
+                <Link to="/blog/" activeClassName={'active'} partiallyActive={true} title={'Blog'}>Blog</Link>
+                
             </div>
         </>
     )
