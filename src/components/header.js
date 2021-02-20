@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => {
                 {/* <span style={{ fontStyle: 'italic', display:'inline-block'}}>Novice Programmer</span> */}
                 <ThemeToggler>
                     {({ theme, toggleTheme }) => (
-                        <label className={'theme-changer'} style={'margin-top: 5px;'}>
+                        <label className={'theme-changer'} style={{marginTop: '5px'}}>
                             {theme === 'light'
                             &&
                             <>
