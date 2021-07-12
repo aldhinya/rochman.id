@@ -12,7 +12,6 @@ const ContactPage = () => (
             <div className={'deskripsi'}>
                 <p>Anda dapat terhubung dengan saya melalui email <a href={'mailto:hi@rochman.id'} title={'Contact via Email'}>hi@rochman.id</a>, atau melalui media sosial di bawah.</p>
                 <p>
-                    WhatsApp - <a href={'https://wa.me/6285155222799'} target={'_blank'} rel={'noreferrer'} title={"Whatsapp"}>085155222799</a><br/>
                     Instagram - <a href={'https://www.instagram.com/aldhinya/'} target={'_blank'} rel={'noreferrer'} title={"Instagram"}>instagram.com/aldhinya</a><br/>
                     Telegram - <a href={'https://t.me/aldhinya'} target={'_blank'} rel={'noreferrer'} title={"Telegram"}>t.me/aldhinya</a>
                     <br/>Line - <a href={'https://line.me/ti/p/~aldhinya.aldhi'} target={'_blank'} rel={'noreferrer'} title={"Line"}>line.me/ti/p/~aldhinya.aldhi</a>
