@@ -19,8 +19,7 @@ const AboutPage = () => (
           tinggi swasta di Surabaya.
         </p>
         <p>
-          Suka rebahan dan scroll sosial media seperti facebook, twitter, dan
-          instagram sampai tamat.
+         Sekarang sedang aktif mengerjakan beberapa project Laravel.
         </p>
         <h4>Pendidikan</h4>
         <p>
@@ -61,6 +60,17 @@ const AboutPage = () => (
                 title={"blog.rochman.id"}
               >
                 blog.rochman.id
+              </a>
+            </li>
+            <li>
+            <b>KUY</b> -{" "}
+              <a
+                href={"https://kuy.web.id/"}
+                target={"_blank"}
+                rel={"noreferrer"}
+                title={"kuy.web.id"}
+              >
+                kuy.web.id
               </a>
             </li>
           </ul>
@@ -131,7 +141,7 @@ const AboutPage = () => (
               <br />
               Vercel
               <br />
-              Netlify
+              IDCloudHost
             </p>
           </div>
         </div>

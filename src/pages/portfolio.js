@@ -9,6 +9,7 @@ import lbp from "../images/portfolio/2-lbp.jpg";
 import prawitaria from "../images/portfolio/7-prawitaria.jpg";
 import robatal from "../images/portfolio/3-robatal.jpg";
 import smkcerme from "../images/portfolio/4-smkcerme.jpg";
+import lainnya from "../images/portfolio/lainnya.jpg";
 
 const AboutPage = () => (
   <Layout>
@@ -53,7 +54,7 @@ const AboutPage = () => (
                     <img src={berita} alt="Portal Berita" title={'Portal Berita'}/>
                 </a>
                     <h4>Web Portal Berita</h4>
-                    <p><a href={"https://berita.rochman.id/"} target={"_blank"} rel={"noreferrer"} title={"Blog Sederhana"} >berita.rochman.id</a> - Laravel, Bootstrap</p>
+                    <p>Laravel, Bootstrap</p>
                 </div>
             </div>
             <div className={"column"}>
@@ -62,7 +63,7 @@ const AboutPage = () => (
                     <img src={lbp} alt="Blog Lab Bahasa Pemrograman" title={'Blog Lab Bahasa Pemrograman'}/>
                 </a>
                     <h4>Blog Lab Bahasa Pemrograman</h4>
-                    <p><a href={"https://lbp.web.id/"} target={"_blank"} rel={"noreferrer"} title={"Blog Sederhana"} >lbp.web.id</a> - Laravel, Bootstrap</p>
+                    <p>Laravel, Bootstrap</p>
                 </div>
             </div>
         </div>
@@ -73,7 +74,7 @@ const AboutPage = () => (
                     <img src={smkcerme} alt=" Web SMKN 1 Cerme Gresik" title={'Web SMKN 1 Cerme Gresik'}/>
                 </a>
                     <h4>Web SMKN 1 Cerme Gresik</h4>
-                    <p><a href={"http://smkn1cermegresik.sch.id/"} target={"_blank"} rel={"noreferrer"} title={" Web SMKN 1 Cerme Gresik"} >smkn1cermegresik.sch.id</a> - WordPress</p>
+                    <p>WordPress</p>
                 </div>
                 
             </div>
@@ -83,7 +84,7 @@ const AboutPage = () => (
                     <img src={robatal} alt="Web Sekolah SMKN 1 Robatal" title={'Web Sekolah SMKN 1 Robatal'}/>
                 </a>
                     <h4>Web SMKN 1 Robatal</h4>
-                    <p><a href={"https://www.smkn1robatal.sch.id/"} target={"_blank"} rel={"noreferrer"} title={"Web Sekolah SMKN 1 Robatal"} >smkn1robatal.sch.id</a> - WordPress</p>
+                    <p>WordPress</p>
                 </div>
             </div>
         </div>
@@ -94,7 +95,7 @@ const AboutPage = () => (
                     <img src={jasabor} alt="Web Jasa Bor" title={'Web Jasa Bor'}/>
                 </a>
                     <h4>Web Jasa Bor</h4>
-                    <p><a href={"https://jasaborsumursumberbumi.com"} target={"_blank"} rel={"noreferrer"} title={"Web Jasa Bor"} >jasaborsumursumberbumi.com</a> - WordPress</p>
+                    <p>WordPress</p>
                 </div>
             </div>
             <div className={"column"}>
@@ -103,7 +104,7 @@ const AboutPage = () => (
                     <img src={bliwuh} alt="Web Produk Bliwuh Spray" title={'Web Produk Bliwuh Spray'}/>
                 </a>
                     <h4>Web Produk Bliwuh Spray</h4>
-                    <p><a href={"https://bliwuhspray.com"} target={"_blank"} rel={"noreferrer"} title={"Web Produk Bliwuh Spray"} >bliwuhspray.com</a> - WordPress</p>
+                    <p>WordPress</p>
                 </div>
             </div>
         </div>
@@ -114,7 +115,16 @@ const AboutPage = () => (
                     <img src={prawitaria} alt="Web Sanggar Prawitaria" title={'Web Sanggar Prawitaria'}/>
                 </a>
                     <h4>Web Sanggar Prawitaria</h4>
-                    <p><a href={"https://prawitaria.com/"} target={"_blank"} rel={"noreferrer"} title={"Web Sanggar Prawitaria"} >prawitaria.com</a> - Bootstrap</p>
+                    <p>Bootstrap</p>
+                </div>
+            </div>
+            <div className={"column"}>
+                <div className={"content"}>
+                <Link to="/contact/" target={"_blank"} rel={"noreferrer"} title={"Project Laravel lainnya"} >
+                    <img src={lainnya} alt="Project Laravel lainnya" title={'Project Laravel lainnya'}/>
+                </Link>
+                    <h4>DLL</h4>
+                    <p>Project Laravel lainnya.</p>
                 </div>
             </div>
         </div>
