@@ -9,6 +9,8 @@ import lbp from "../images/portfolio/2-lbp.jpg";
 import prawitaria from "../images/portfolio/7-prawitaria.jpg";
 import robatal from "../images/portfolio/3-robatal.jpg";
 import smkcerme from "../images/portfolio/4-smkcerme.jpg";
+import ahs from "../images/portfolio/8-ahs.png";
+import temanbelanja from "../images/portfolio/9-temanbelanja.png";
 import lainnya from "../images/portfolio/lainnya.jpg";
 
 const AboutPage = () => (
@@ -47,6 +49,7 @@ const AboutPage = () => (
 
         <h4>Project yang Pernah Saya Kerjakan</h4>
         <br/>
+        
         <div className={"portfolio-row"}>
             <div className={"column"}>
                 <div className={"content"}>
@@ -67,6 +70,7 @@ const AboutPage = () => (
                 </div>
             </div>
         </div>
+        
         <div className={"portfolio-row"}>
             <div className={"column"}>
                 <div className={"content"}>
@@ -88,6 +92,7 @@ const AboutPage = () => (
                 </div>
             </div>
         </div>
+        
         <div className={"portfolio-row"}>
             <div className={"column"}>
                 <div className={"content"}>
@@ -108,6 +113,7 @@ const AboutPage = () => (
                 </div>
             </div>
         </div>
+       
         <div className={"portfolio-row"}>
             <div className={"column"}>
                 <div className={"content"}>
@@ -116,6 +122,27 @@ const AboutPage = () => (
                 </a>
                     <h4>Web Sanggar Prawitaria</h4>
                     <p>Bootstrap</p>
+                </div>
+            </div>
+            <div className={"column"}>
+                <div className={"content"}>
+                <Link to={ahs} target={"_blank"} rel={"noreferrer"} title={"Analisa Harga Satuan"} >
+                    <img src={ahs} alt="Analisa Harga Satuan" title={'Analisa Harga Satuan'}/>
+                </Link>
+                    <h4>Web Analisa Harga Satuan</h4>
+                    <p>Laravel</p>
+                </div>
+            </div>
+        </div>
+        
+        <div className={"portfolio-row"}>
+            <div className={"column"}>
+                <div className={"content"}>
+                <a href={temanbelanja} target={"_blank"} rel={"noreferrer"} title={"Teman Belanja"} >
+                    <img src={temanbelanja} alt="Teman Belanja" title={'Teman Belanja'}/>
+                </a>
+                    <h4>Web Teman Belanja</h4>
+                    <p>Laravel</p>
                 </div>
             </div>
             <div className={"column"}>

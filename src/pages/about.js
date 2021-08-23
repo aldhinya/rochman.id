@@ -19,22 +19,36 @@ const AboutPage = () => (
           tinggi swasta di Surabaya.
         </p>
         <p>
-         Sekarang sedang aktif mengerjakan beberapa project Laravel.
+          Sekarang sedang aktif mengerjakan beberapa project Laravel.
         </p>
         <h4>Pendidikan</h4>
         <p>
           <ul>
             <li><b>SDN Cerme Lor</b> (2005 - 2011)</li>
             <li><b>SMPN 5 Gresik</b> (2011 - 2014)</li>
-            <li><b>SMKN 1 Cerme</b> (2014 - 2017)<br/>Teknik Komputer dan Jaringan</li>
-            <li><b>Institut Teknologi Adhi Tama Surabaya</b> (2017 - sekarang)<br/>Teknik Informatika</li>
+            <li><b>SMKN 1 Cerme</b> (2014 - 2017)<br />Teknik Komputer dan Jaringan</li>
+            <li><b>Institut Teknologi Adhi Tama Surabaya</b> (2017 - sekarang)<br />Teknik Informatika</li>
           </ul>
         </p>
         <h4>Organisasi</h4>
         <p>
-        <ul>
-            <li><b>Asisten Laboratorium Bahasa Pemrograman</b> (2018 - 2019)</li>
-            <li><b>Koordinator Laboratorium Bahasa Pemrograman</b> (2019 - 2020)</li>
+          <ul>
+            <li>Asisten Laboratorium Bahasa Pemrograman (2018 - 2019)</li>
+            <li>Koordinator Laboratorium Bahasa Pemrograman (2019 - 2020)</li>
+          </ul>
+        </p>
+        <h4>Pekerjaan yang pernah dikerjakan</h4>
+        <p>
+          <b>Tahun 2020 – sekarang : </b>
+          <ul>
+            <li>Freelance backend programmer aplikasi web <a href={"https://teman-belanja.id/"} target={"_blank"} rel={"noreferrer"} title={"Teman Belanja"}>Teman Belanja
+              </a> dari P&G dan CSA.</li>
+            <li>Freelance backend programmer di PT. Akkarya Jaya Pratama mengerjakan aplikasi <a href={"http://analisahargasatuan.com//"} target={"_blank"} rel={"noreferrer"} title={"Analisa Harga Satuan"}>Analisa Harga Satuan
+              </a> berbasis web.</li>
+          </ul>
+          <b>Tahun 2015 : </b><br/>
+          <ul>
+            <li>Prakerin di PT. Petro Jordan Abadi. Melakukan maintenance website, jaringan internet, dan perangkat lainnya.</li>
           </ul>
         </p>
         <h4>Blog</h4>
@@ -42,17 +56,12 @@ const AboutPage = () => (
           <ul>
             <li>
               <b>Aldhinya Web</b> -{" "}
-              <a
-                href={"https://www.aldhinya.com/"}
-                target={"_blank"}
-                rel={"noreferrer"}
-                title={"Aldhinya Web"}
-              >
+              <a href={"https://www.aldhinya.com/"} target={"_blank"} rel={"noreferrer"} title={"Aldhinya Web"} >
                 aldhinya.com
               </a>
             </li>
             <li>
-            <b>Rochman Blog</b> -{" "}
+              <b>Rochman Blog</b> -{" "}
               <a
                 href={"https://blog.rochman.id/"}
                 target={"_blank"}
@@ -63,7 +72,7 @@ const AboutPage = () => (
               </a>
             </li>
             <li>
-            <b>KUY</b> -{" "}
+              <b>KUY</b> -{" "}
               <a
                 href={"https://kuy.web.id/"}
                 target={"_blank"}
@@ -75,11 +84,11 @@ const AboutPage = () => (
             </li>
           </ul>
         </p>
-        <h4>Skills</h4>
+        {/* <h4>Skills</h4>
         <p>
           Programming Languages & Tools:
-        </p>
-        <div className={"grid-container"}>
+        </p> */}
+        {/* <div className={"grid-container"}>
           <div className={"grid-item"}>
             <b>Languages</b>
             <p>
@@ -144,7 +153,7 @@ const AboutPage = () => (
               IDCloudHost
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   </Layout>
