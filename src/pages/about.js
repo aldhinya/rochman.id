@@ -39,7 +39,7 @@ const AboutPage = () => (
 
         <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Pengalaman Kerja</h4>
         <p>
-          <b>PT Adhi Tama Mitra Nusantara</b>  - Full Time<br/>
+          <b>PT Adhitama Mitra Nusantara</b> - Full Time<br/>
           <i>IT Support</i>  (November 2021 - Sekarang)<br/>
         </p>
         <br/>
