@@ -114,7 +114,7 @@ const AboutPage = () => (
             </div>
         </div>
        
-        <div className={"portfolio-row"}>
+        {/* <div className={"portfolio-row"}>
             <div className={"column"}>
                 <div className={"content"}>
                 <a href={prawitaria} target={"_blank"} rel={"noreferrer"} title={"Web Sanggar Prawitaria"} >
@@ -154,7 +154,7 @@ const AboutPage = () => (
                     <p>Project Laravel lainnya.</p>
                 </div>
             </div>
-        </div>
+        </div> */}
       </div>
       <p>Ingin dibuatkan Website? Buka halaman <Link to="/contact/" title={'Go to Contact Page'}>berikut</Link> untuk menghubungi saya.</p>
     </div>

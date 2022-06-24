@@ -20,7 +20,7 @@ const IndexPage = () => (
                 aldhi
             </div>
             <br/>
-            <div className={'nama'}><span>Hi, saya Fadhilatur Rochman <span role={'img'} aria-label={'emoji'}>👋</span></span></div>
+            <div className={'nama'}><span>Hai, saya Fadhilatur Rochman <span role={'img'} aria-label={'emoji'}>👋</span></span></div>
             <div className={'deskripsi'}>
                 <p>Untuk kenal lebih jauh silahkan buka halaman <Link to="/about/" title={'Go to About Page'}>About</Link> atau buka halaman <Link to="/contact/" title={'Go to Contact Page'}>Contact</Link> untuk menghubungi saya.</p>
                 <p style={{ fontStyle:'italic'}}>"Don’t worry if it doesn’t work right. If everything did, you’d be out of a job" - Mosher’s Law of Software Engineering</p>

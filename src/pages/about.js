@@ -15,43 +15,67 @@ const AboutPage = () => (
         <p>
           Punya nama lengkap Fadhilatur Rochman dan biasa dipanggil Aldhi. Anak
           pertama dari dua bersaudara. Tinggal di Indonesia, Lahir di Surabaya
-          dan dibesarkan di Gresik. Sedang berkuliah di salah satu perguruan
-          tinggi swasta di Surabaya.
+          dan dibesarkan di Gresik. 
+          <br /><br />
+          Lulusan Teknik Informatika dari Institut Teknologi Adhi Tama Surabaya tahun 2021, lulus tepat waktu dengan IPK 3,62. Memiliki pengalaman sebagai Web Developer Laravel, membuat dan mengembangkan beberapa website, dapat mengoperasikan WordPress, konfigurasi server, serta hal lain yang berhubungan dengan IT. Aktif terlibat dalam proyek beberapa perusahaan. Dengan pengalaman yang saya miliki, saya berusaha agar dapat terus berkembang dan memberikan kontribusi yang baik.
         </p>
+        <br/>
+        <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Pendidikan</h4>
         <p>
-          Sekarang sedang aktif mengerjakan beberapa project Laravel.
-        </p>
-        <h4>Pendidikan</h4>
-        <p>
+        (2005 - 2011) <b>SDN Cerme Lor</b><br/>
+        (2011 - 2014) <b>SMPN 5 Gresik</b><br/>
+        (2014 - 2017) <b>SMKN 1 Cerme</b> - Teknik Komputer dan Jaringan
+        <ul>
+            <li>Magang di PT. Petro Jordan Abadi sebagai IT Support. Melakukan maintenance website, monitoring jaringan internet, dan konfigurasi perangkat (November 2015 - Februari 2016)</li>
+        </ul>
+        (2017 - 2021) <b>Institut Teknologi Adhi Tama Surabaya</b> - Teknik Informatika - IPK 3,62<br/>
           <ul>
-            <li><b>SDN Cerme Lor</b> (2005 - 2011)</li>
-            <li><b>SMPN 5 Gresik</b> (2011 - 2014)</li>
-            <li><b>SMKN 1 Cerme</b> (2014 - 2017)<br />Teknik Komputer dan Jaringan</li>
-            <li><b>Institut Teknologi Adhi Tama Surabaya</b> (2017 - sekarang)<br />Teknik Informatika</li>
+            <li>Asisten Laboratorium Bahasa pemrograman</li>
+            <li>Koordinator Laboratorium Bahasa Pemrograman</li>
+            <li>Publikasi 1 jurnal Software Engineering - <a href={"http://ejurnal.itats.ac.id/snestik/article/view/1748"} target={"_blank"} rel={"noreferrer"} title={"Pembuatan Sistem Informasi Penerimaan Peserta Didik Baru (PPDB) Berbasis Web di MDTA Tauhidullah Surabaya Menggunakan Model Waterfall"}>Link</a></li>
+            <li>Tugas akhir "Rancang Bangun Aplikasi Simulasi Nilai Borang Akreditasi Berbasis Web Menggunakan V-Model di Jurusan Teknik Informatika ITATS"</li>
           </ul>
         </p>
-        <h4>Organisasi</h4>
+
+        <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Pengalaman Kerja</h4>
         <p>
+          <b>PT Adhi Tama Mitra Nusantara</b>  - Full Time<br/>
+          <i>IT Support</i>  (November 2021 - Sekarang)<br/>
+        </p>
+        <br/>
+        <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Skills</h4>
+        <p>
+        PHP, HTML, CSS, JavaScript, jQuery, AJAX, Laravel, CodeIgniter, MySQL, GIT, Linux Server, Apache, Nginx, cPanel, VPS.
+        </p>
+        <br/>
+        <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Project</h4>
+        <p>
+          <b>eContract</b> (PT Adhitama Mitra Nusantara)<br/>
+          <i>Backend Developer</i>  (Desember 2021 - Sekarang)<br/>
           <ul>
-            <li>Asisten Laboratorium Bahasa Pemrograman (2018 - 2019)</li>
-            <li>Koordinator Laboratorium Bahasa Pemrograman (2019 - 2020)</li>
+            <li>Membuat dan mengembangkan dashboard web eContract yang digunakan untuk monitoring dan manajemen data</li>
+            <li>eContract merupakan aplikasi yang berfungsi sebagai pengganti tanda tangan kontrak fisik yang dilakukan sales ke toko</li>
+            <li>Deploy aplikasi dan konfigurasi Server VPS</li>
+          </ul>
+          
+          <b>Teman Belanja </b> (PT Procter & Gamble dan PT Catur Sentosa Adiprana Tbk)<br/>
+          <i>Backend Developer</i>  (Maret 2021 - Sekarang)<br/>
+          <ul>
+            <li>Membuat dan mengembangkan aplikasi Teman Belanja berbasis web dari P&G dan CSA</li>
+            <li>Teman Belanja merupakan aplikasi berbasis web yang menghubungkan transaksi antara distributor, grosir dan konsumen dengan fitur BOT WhatsApp, marketplace miniweb, dan fitur POS (Point of Sales)</li>
+            <li>Deploy aplikasi dan konfigurasi Server VPS</li>
+          </ul>
+
+          <b>Analisa Harga Satuan </b>(PT Akkarya Jaya Pratama)<br/>
+          <i>Backend Developer</i>  (Juli 2020 - Sekarang)<br/>
+          <ul>
+            <li>Membuat dan mengembangkan website pembuatan Rencana Anggaran Biaya (RAB), Analisa Satuan, Harga Satuan, Analisa Terpakai, Purchasing Order (PO), Schedule, dan Marketplace</li>
+            <li>Deploy aplikasi dan konfigurasi Server VPS</li>
           </ul>
         </p>
-        <h4>Pekerjaan yang pernah dikerjakan</h4>
-        <p>
-          <b>Tahun 2020 – sekarang : </b>
-          <ul>
-            <li>Freelance backend programmer aplikasi web <a href={"https://teman-belanja.id/"} target={"_blank"} rel={"noreferrer"} title={"Teman Belanja"}>Teman Belanja
-              </a> dari P&G dan CSA.</li>
-            <li>Freelance backend programmer di PT. Akkarya Jaya Pratama mengerjakan aplikasi <a href={"http://analisahargasatuan.com//"} target={"_blank"} rel={"noreferrer"} title={"Analisa Harga Satuan"}>Analisa Harga Satuan
-              </a> berbasis web.</li>
-          </ul>
-          <b>Tahun 2015 : </b><br/>
-          <ul>
-            <li>Prakerin di PT. Petro Jordan Abadi. Melakukan maintenance website, jaringan internet, dan perangkat lainnya.</li>
-          </ul>
-        </p>
-        <h4>Blog</h4>
+        
+        <br/>
+        <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Blog</h4>
         <p>
           <ul>
             <li>

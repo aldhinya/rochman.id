@@ -312,6 +312,7 @@ tr:nth-child(even) {
 	line-height: 1.5em;
 	overflow: auto;
 	overflow-x: hidden;
+	text-align: justify;
 }
 .deskripsi h3 {
 	margin: 0 0 5px 0;
