@@ -16,10 +16,6 @@ const IndexPage = () => (
                 <img src={fotoku} alt="Foto Fadhilatur Rochman" title={'Foto Fadhilatur Rochman'}/>
                 {/*<img src={'https://4.bp.blogspot.com/-SkL4zL4a5qM/Xs--iOb6jBI/AAAAAAAABVU/ncwaBarFIKcK3Y1dYXrvlMyJsW2E8EHmQCK4BGAYYCw/s260/fotoku.jpg'} alt={'Foto Fadhilatur Rochman'} title={'Foto Fadhilatur Rochman'}/>*/}
             </div>
-            <div className={'kotak-kecil'}>
-                aldhi
-            </div>
-            <br/>
             <div className={'nama'}><span>Hai, saya Fadhilatur Rochman <span role={'img'} aria-label={'emoji'}>👋</span></span></div>
             <div className={'deskripsi'}>
                 <p>Untuk kenal lebih jauh silahkan buka halaman <Link to="/about/" title={'Go to About Page'}>About</Link> atau buka halaman <Link to="/contact/" title={'Go to Contact Page'}>Contact</Link> untuk menghubungi saya.</p>

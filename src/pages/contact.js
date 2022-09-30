@@ -6,8 +6,6 @@ const ContactPage = () => (
     <Layout>
         <SEO title={'Contact'} />
         <div className={'panel'}>
-            <div className={'kotak-kecil'}>Fadhilatur Rochman</div>
-            <br />
             <div className={'nama'}><span>Contact</span></div>
             <div className={'deskripsi'}>
                 <p>Anda dapat terhubung dengan saya melalui email <a href={'mailto:hi@rochman.id'} title={'Contact via Email'}>hi@rochman.id</a>, atau melalui <a href={'https://www.linkedin.com/in/fadhil-rochman'} target={'_blank'} rel={'noreferrer'} title={"LinkedIn"}>LinkedIn</a>.</p>

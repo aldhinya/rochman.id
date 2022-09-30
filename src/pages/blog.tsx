@@ -80,8 +80,6 @@ const BlogIndex = props => {
                 description={'Kumpulan artikel di blog ROCHMAN.ID.'}
             />
             <div className={'panel'}>
-                <div className={'kotak-kecil'}>Fadhilatur Rochman</div>
-                <br/>
                 <div className={'nama'}><span>Blog</span></div>
                 <div className={'deskripsi blog'}>
                     <div className={'kiri'}>

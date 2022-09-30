@@ -27,8 +27,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 description={deskripsi}
                 featuredImage={thumb || post.excerpt}
             />
-            <div className="panel">
-                <div className="kotak-kecil" style={{ marginRight:'8px', marginBottom:'5px'}}>Fadhilatur Rochman</div>
+            <div className="panel" style={{ padding:'20px' }}>
                 <div className="kotak-kecil" style={{ marginRight:'8px', marginBottom:'5px'}}>{post.frontmatter.date}</div>
                 <div className="kotak-kecil" style={{ marginBottom:'5px'}}><CommentCount {...disqusConfig}/></div>
                 <br/>

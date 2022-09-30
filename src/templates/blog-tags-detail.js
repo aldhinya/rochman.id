@@ -54,8 +54,6 @@ const Tags = ({ pageContext, data }) => {
                 description={tagDescriptionSeo}
             />
             <div className={'panel'}>
-                <div className={'kotak-kecil'}>Fadhilatur Rochman</div>
-                <br/>
                 <div className={'nama'}><span>Blog - #<span style={{textTransform:'capitalize'}}>{tag}</span></span></div>
                 <div className={'deskripsi blog'}>
                     <div className={'kiri'}>

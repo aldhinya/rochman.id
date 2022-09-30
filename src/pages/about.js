@@ -6,8 +6,6 @@ const AboutPage = () => (
   <Layout>
     <SEO title={"About"} />
     <div className={"panel"}>
-      <div className={"kotak-kecil"}>Fadhilatur Rochman</div>
-      <br />
       <div className={"nama"}>
         <span>About</span>
       </div>
@@ -41,6 +39,13 @@ const AboutPage = () => (
         <p>
           <b>PT Adhitama Mitra Nusantara</b> - Full Time<br/>
           <i>IT Support</i>  (November 2021 - Sekarang)<br/>
+          <ul>
+            <li>Memastikan semua perangkat komputer dan jaringan internet dapat berfungsi normal</li>
+            <li>Maintenance server internal perusahaan</li>
+            <li>Maintenance, fix bug, mengembangkan fitur baru pada website internal perusahaan (Laravel, CodeIgniter)</li>
+            <li>Membuat, maintenance, fix bug, mengembangkan fitur baru pada website company profile dan recruitment perusahaan (Laravel)</li>
+            <li>Mengerjakan tugas yang berhubungan dengan IT</li>
+          </ul>
         </p>
         <br/>
         <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Skills</h4>
@@ -51,7 +56,7 @@ const AboutPage = () => (
         <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Project</h4>
         <p>
           <b>eContract</b> (PT Adhitama Mitra Nusantara)<br/>
-          <i>Backend Developer</i>  (Desember 2021 - Sekarang)<br/>
+          <i>Backend Developer (Laravel)</i>  (Desember 2021 - Sekarang)<br/>
           <ul>
             <li>Membuat dan mengembangkan dashboard web eContract yang digunakan untuk monitoring dan manajemen data</li>
             <li>eContract merupakan aplikasi yang berfungsi sebagai pengganti tanda tangan kontrak fisik yang dilakukan sales ke toko</li>
@@ -59,7 +64,7 @@ const AboutPage = () => (
           </ul>
           
           <b>Teman Belanja </b> (PT Procter & Gamble dan PT Catur Sentosa Adiprana Tbk)<br/>
-          <i>Backend Developer</i>  (Maret 2021 - Sekarang)<br/>
+          <i>Backend Developer (Laravel)</i>  (Maret 2021 - Agustus 2022)<br/>
           <ul>
             <li>Membuat dan mengembangkan aplikasi Teman Belanja berbasis web dari P&G dan CSA</li>
             <li>Teman Belanja merupakan aplikasi berbasis web yang menghubungkan transaksi antara distributor, grosir dan konsumen dengan fitur BOT WhatsApp, marketplace miniweb, dan fitur POS (Point of Sales)</li>
@@ -67,7 +72,7 @@ const AboutPage = () => (
           </ul>
 
           <b>Analisa Harga Satuan </b>(PT Akkarya Jaya Pratama)<br/>
-          <i>Backend Developer</i>  (Juli 2020 - Sekarang)<br/>
+          <i>Backend Developer (Laravel)</i>  (Juli 2020 - Sekarang)<br/>
           <ul>
             <li>Membuat dan mengembangkan website pembuatan Rencana Anggaran Biaya (RAB), Analisa Satuan, Harga Satuan, Analisa Terpakai, Purchasing Order (PO), Schedule, dan Marketplace</li>
             <li>Deploy aplikasi dan konfigurasi Server VPS</li>

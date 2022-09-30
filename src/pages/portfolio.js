@@ -11,14 +11,13 @@ import robatal from "../images/portfolio/3-robatal.jpg";
 import smkcerme from "../images/portfolio/4-smkcerme.jpg";
 import ahs from "../images/portfolio/8-ahs.png";
 import temanbelanja from "../images/portfolio/9-temanbelanja.png";
+import smanic from "../images/portfolio/10-smanic.png";
 import lainnya from "../images/portfolio/lainnya.jpg";
 
 const AboutPage = () => (
   <Layout>
     <SEO title={"Portfolio"} />
     <div className={"panel"}>
-      <div className={"kotak-kecil"}>Fadhilatur Rochman</div>
-      <br />
       <div className={"nama"}>
         <span>Portfolio</span>
       </div>
@@ -53,11 +52,11 @@ const AboutPage = () => (
         <div className={"portfolio-row"}>
             <div className={"column"}>
                 <div className={"content"}>
-                <a href={berita} target={"_blank"} rel={"noreferrer"} title={"Blog Sederhana"} >
-                    <img src={berita} alt="Portal Berita" title={'Portal Berita'}/>
+                <a href={smanic} target={"_blank"} rel={"noreferrer"} title={"Web SMA Negeri 1 Cerme"} >
+                    <img src={smanic} alt="Web SMA Negeri 1 Cerme" title={'Web SMA Negeri 1 Cerme'}/>
                 </a>
-                    <h4>Web Portal Berita</h4>
-                    <p>Laravel, Bootstrap</p>
+                    <h4>Web SMA Negeri 1 Cerme</h4>
+                    <p>WordPress</p>
                 </div>
             </div>
             <div className={"column"}>
@@ -114,7 +113,7 @@ const AboutPage = () => (
             </div>
         </div>
        
-        {/* <div className={"portfolio-row"}>
+        <div className={"portfolio-row"}>
             <div className={"column"}>
                 <div className={"content"}>
                 <a href={prawitaria} target={"_blank"} rel={"noreferrer"} title={"Web Sanggar Prawitaria"} >
@@ -145,16 +144,7 @@ const AboutPage = () => (
                     <p>Laravel</p>
                 </div>
             </div>
-            <div className={"column"}>
-                <div className={"content"}>
-                <Link to="/contact/" target={"_blank"} rel={"noreferrer"} title={"Project Laravel lainnya"} >
-                    <img src={lainnya} alt="Project Laravel lainnya" title={'Project Laravel lainnya'}/>
-                </Link>
-                    <h4>DLL</h4>
-                    <p>Project Laravel lainnya.</p>
-                </div>
-            </div>
-        </div> */}
+        </div>
       </div>
       <p>Ingin dibuatkan Website? Buka halaman <Link to="/contact/" title={'Go to Contact Page'}>berikut</Link> untuk menghubungi saya.</p>
     </div>
