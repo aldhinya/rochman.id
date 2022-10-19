@@ -43,7 +43,7 @@ const AboutPage = () => (
             <li>Memastikan semua perangkat komputer dan jaringan internet dapat berfungsi normal</li>
             <li>Maintenance server internal perusahaan</li>
             <li>Maintenance, fix bug, mengembangkan fitur baru pada website internal perusahaan (Laravel, CodeIgniter)</li>
-            <li>Membuat, maintenance, fix bug, mengembangkan fitur baru pada website company profile dan recruitment perusahaan (Laravel)</li>
+            <li>Membuat, maintenance, fix bug, mengembangkan fitur baru pada website company profile dan recruitment perusahaan menggunakan Laravel, memudahkan calon pelamar dan recruiter dalam melakukan proses rekrutmen calon pelamar</li>
             <li>Mengerjakan tugas yang berhubungan dengan IT</li>
           </ul>
         </p>
@@ -55,12 +55,22 @@ const AboutPage = () => (
         <br/>
         <h4 style={{borderBottom:'1px solid #fff', display:'inline'}}>Project</h4>
         <p>
+        <b>Company Profile & Job Portal</b> (PT Adhitama Mitra Nusantara)<br/>
+          <i>Backend Developer (Laravel)</i>  (Februari 2022 - Sekarang)<br/>
+          <ul>
+            <li>Membuat, maintenance, fix bug, mengembangkan fitur baru pada website company profile dan recruitment perusahaan</li>
+            <li>Memudahkan calon pelamar dan recruiter dalam melakukan proses rekrutmen</li>
+            <li>Deploy aplikasi dan konfigurasi Server VPS</li>
+            <li>Link: <a href={"https://adhitamamitranusantara.com"} target={"_blank"} rel={"noreferrer"} title={"PT Adhitama Mitra Nusantara"} > adhitamamitranusantara.com </a></li>
+          </ul>
+
           <b>eContract</b> (PT Adhitama Mitra Nusantara)<br/>
           <i>Backend Developer (Laravel)</i>  (Desember 2021 - Sekarang)<br/>
           <ul>
             <li>Membuat dan mengembangkan dashboard web eContract yang digunakan untuk monitoring dan manajemen data</li>
             <li>eContract merupakan aplikasi yang berfungsi sebagai pengganti tanda tangan kontrak fisik yang dilakukan sales ke toko</li>
             <li>Deploy aplikasi dan konfigurasi Server VPS</li>
+            <li>Link: private</li>
           </ul>
           
           <b>Teman Belanja </b> (PT Procter & Gamble dan PT Catur Sentosa Adiprana Tbk)<br/>
@@ -69,6 +79,7 @@ const AboutPage = () => (
             <li>Membuat dan mengembangkan aplikasi Teman Belanja berbasis web dari P&G dan CSA</li>
             <li>Teman Belanja merupakan aplikasi berbasis web yang menghubungkan transaksi antara distributor, grosir dan konsumen dengan fitur BOT WhatsApp, marketplace miniweb, dan fitur POS (Point of Sales)</li>
             <li>Deploy aplikasi dan konfigurasi Server VPS</li>
+            <li>Link: private</li>
           </ul>
 
           <b>Analisa Harga Satuan </b>(PT Akkarya Jaya Pratama)<br/>
@@ -76,6 +87,7 @@ const AboutPage = () => (
           <ul>
             <li>Membuat dan mengembangkan website pembuatan Rencana Anggaran Biaya (RAB), Analisa Satuan, Harga Satuan, Analisa Terpakai, Purchasing Order (PO), Schedule, dan Marketplace</li>
             <li>Deploy aplikasi dan konfigurasi Server VPS</li>
+            <li>Link: <a href={"https://analisahargasatuan.com/"} target={"_blank"} rel={"noreferrer"} title={"Analisa Harga Satuan"} > analisahargasatuan.com </a></li>
           </ul>
         </p>
         
