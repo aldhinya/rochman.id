@@ -135,7 +135,7 @@ const AboutPage = () => (
                 </div>
 
                 <div className={"portfolio-row"}>
-                    <h4>Wings Analytics (PT. Sayap Mas Utama)</h4>
+                    <h4>Wings Analytics (PT Sayap Mas Utama)</h4>
                     <div className={"column"}>
                         <div className={"content left"}>
                             <Link to={wings} target={"_blank"} rel={"noreferrer"} title={"Wings Analytics"} >
