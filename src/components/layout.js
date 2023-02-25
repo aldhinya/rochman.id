@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
       </div>
         <div className={'footer fade-in'}>
             {/* Built with <span style={{color:'red'}}>❤</span> using <a href={'https://www.gatsbyjs.org/'} target={'_blank'} rel={'noreferrer'} title={'GatsbyJS'}>GatsbyJS</a>.<br/> */}
-            Copyright © 2021-2022 ROCHMAN.ID. All Rights Reserved
+            Copyright © 2021-2023 ROCHMAN.ID. All Rights Reserved
         </div>
     </>
   )

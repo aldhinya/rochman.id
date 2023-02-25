@@ -825,15 +825,21 @@ input[type=text]:focus {
 
 
 .portfolio-row {
-	margin: 0px -16px;
-	padding: 0px 8px 0px 8px;
+	margin: 0px 0px 10px 0px;
+	/* padding: 0px 8px 0px 8px; */
+
+	/* background-color: var(--bg-kotak-artikel);
+	border: 2px solid var(--border-kotak-artikel);
+	border-radius: 3px; */
+	/* padding:3px 8px 3px 8px; */
 }
 .portfolio-row h4 {
 	font-size: 1.2em;
 	font-weight: 700;
+	margin-bottom:10px;
 }
 .portfolio-row > .column {
-	padding: 8px;
+	/* padding: 8px; */
 	float: left;
 }
 
@@ -848,15 +854,13 @@ input[type=text]:focus {
 	clear: both;
 }
 
-.portfolio-row .content {
-	background-color: var(--bg-kotak-artikel);
-	border: 2px solid var(--border-kotak-artikel);
-	border-radius: 3px;
-	padding: 10px;
+.portfolio-row .content.left {
+	margin-right:10px;
 }
 
 .portfolio-row .content p{
-	line-height: 1em;
+	line-height: 1.5em;
+	margin-top:0px;
 }
 
 .portfolio-row img{
