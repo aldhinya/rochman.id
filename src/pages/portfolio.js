@@ -151,7 +151,6 @@ const AboutPage = () => (
                                 • Scroll Tracking<br />
                                 • View Tracking<br />
                                 • Click Tracking<br />
-                                • Register dan Login Pelamar<br />
                                 • Transaction Duration<br />
                                 • Dll<br />
                             </p>
